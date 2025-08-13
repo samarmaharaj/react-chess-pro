@@ -1,0 +1,1 @@
+(function(){"use strict";self.onmessage=function(t){const{type:s,legalMoves:o}=t.data;if(s==="getBestMove")if(o&&o.length>0){const n=1e3+Math.random()*1e3;setTimeout(()=>{const e=o[Math.floor(Math.random()*o.length)],a={from:e.from,to:e.to,promotion:e.promotion};self.postMessage({bestMove:a})},n)}else self.postMessage({bestMove:null})}})();
