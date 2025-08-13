@@ -1,0 +1,5 @@
+{
+  "name": "React Chess Pro",
+  "description": "A feature-rich chess application built with React and Tailwind CSS. Play against a powerful AI with multiple difficulty levels, challenge a friend in hotseat mode, or share game states to play remotely.",
+  "requestFramePermissions": []
+}
